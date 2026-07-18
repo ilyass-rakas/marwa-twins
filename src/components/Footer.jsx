@@ -44,15 +44,31 @@ export default function Footer() {
             <div className="flex flex-col gap-3">
               <button
                 onClick={handleWhatsApp}
-                className="btn-primary justify-center w-full flex items-center gap-2"
+                className="btn-primary justify-center w-full flex items-center gap-3"
               >
-                <span>💬</span> Prendre rendez-vous
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20.52 3.48A11.92 11.92 0 0 0 12 0C5.373 0 0 5.373 0 12c0 2.116.553 4.084 1.52 5.83L0 24l6.36-1.52A11.937 11.937 0 0 0 12 24c6.627 0 12-5.373 12-12 0-3.22-1.255-6.22-3.48-8.52z" fill="#25D366"/>
+                  <path d="M17.473 14.848c-.293-.147-1.73-.853-1.998-.951-.268-.098-.463-.147-.66.147s-.756.951-.928 1.148c-.17.197-.34.221-.633.074-.293-.147-1.238-.455-2.356-1.45-.872-.78-1.46-1.742-1.63-2.036-.17-.293-.018-.452.13-.6.134-.133.293-.347.439-.52.146-.175.195-.293.293-.488.098-.197.049-.37-.025-.52-.074-.147-.66-1.59-.905-2.178-.238-.57-.48-.492-.66-.5l-.56-.01c-.197 0-.52.074-.794.37s-1.04 1.02-1.04 2.48 1.064 2.876 1.212 3.074c.146.197 2.094 3.2 5.076 4.487 2.244 1.01 2.464.83 2.91.78.446-.049 1.73-.707 1.977-1.39.248-.683.248-1.268.173-1.39-.074-.123-.268-.197-.56-.344z" fill="#fff"/>
+                </svg>
+                <span>Prendre rendez-vous</span>
               </button>
               <button
                 onClick={handleInstagram}
-                className="btn-secondary justify-center w-full flex items-center gap-2"
+                className="btn-secondary justify-center w-full flex items-center gap-3"
               >
-                <span>📸</span> @marwa_anbar____
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="ig" x1="0" x2="1" y1="0" y2="1">
+                      <stop offset="0%" stopColor="#f58529"/>
+                      <stop offset="50%" stopColor="#dd2a7b"/>
+                      <stop offset="100%" stopColor="#8134af"/>
+                    </linearGradient>
+                  </defs>
+                  <rect x="2" y="2" width="20" height="20" rx="5" fill="url(#ig)"/>
+                  <path d="M12 7.2a4.8 4.8 0 100 9.6 4.8 4.8 0 000-9.6zm0 7.92a3.12 3.12 0 110-6.24 3.12 3.12 0 010 6.24z" fill="#fff"/>
+                  <circle cx="17.6" cy="6.4" r="0.88" fill="#fff"/>
+                </svg>
+                <span>@marwa_anbar____</span>
               </button>
             </div>
           </div>
