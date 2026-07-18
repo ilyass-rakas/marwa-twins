@@ -16,7 +16,7 @@ export default function Header() {
           </div>
 
           {/* Desktop Menu */}
-          <nav className="hidden md:flex gap-8 items-center">
+          <nav id="main-navigation" className="hidden md:flex gap-8 items-center">
             <a href="#accueil" className="text-gray-100 hover:text-gold transition duration-300 font-medium">
               Accueil
             </a>
@@ -36,6 +36,9 @@ export default function Header() {
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden text-gold focus:outline-none"
+            aria-controls="mobile-menu"
+            aria-expanded={isOpen}
+            aria-label="Ouvrir le menu mobile"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
@@ -45,7 +48,7 @@ export default function Header() {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <nav className="md:hidden pb-4 flex flex-col gap-4">
+          <nav id="mobile-menu" className="md:hidden pb-4 flex flex-col gap-4" aria-label="Menu mobile">
             <a href="#accueil" className="text-gray-100 hover:text-gold transition duration-300 block">
               Accueil
             </a>
