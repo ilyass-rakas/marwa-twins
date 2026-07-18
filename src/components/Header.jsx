@@ -11,9 +11,6 @@ export default function Header() {
           {/* Logo/Name */}
           <div className="flex-shrink-0 flex items-center">
             <img src="/logo.png" alt="Marwa Twin" className="h-10 md:h-16 object-contain" onError={(e) => { e.currentTarget.style.display = 'none' }} />
-            <h1 className="calligraphic-title text-gold text-3xl md:text-4xl ml-3 hidden md:block">
-              Marwa Twin
-            </h1>
           </div>
 
           {/* Desktop Menu */}
