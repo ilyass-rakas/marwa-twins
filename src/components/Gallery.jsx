@@ -5,6 +5,10 @@ const images = [
   { id: 2, src: '/gallery/2.jpeg', alt: 'Brushing professionnel' },
   { id: 3, src: '/gallery/3.jpeg', alt: 'Nail art créatif' },
   { id: 4, src: '/gallery/4.jpeg', alt: 'Couleur et mèches' },
+  { id: 5, src: '/gallery/5.jpeg', alt: 'Soin des ongles' },
+  { id: 6, src: '/gallery/6.jpeg', alt: 'Style moderne' },
+  { id: 7, src: '/gallery/7.jpeg', alt: 'Finishing luxueux' },
+  { id: 8, src: '/gallery/8.jpeg', alt: 'Résultat professionnel' },
 ]
 
 export default function Gallery() {
