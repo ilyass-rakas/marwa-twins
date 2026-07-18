@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import mark from '../assets/logo-mark.svg'
 import { FaInstagram, FaPhone } from 'react-icons/fa'
 
 export default function Header() {
@@ -11,13 +10,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-20">
           {/* Logo/Name */}
           <div className="flex-shrink-0 flex items-center">
-            <img src={mark} alt="Marwa Twin" className="h-10 md:hidden object-contain" />
-            <img
-              src="/logo.png"
-              alt="Marwa Twin"
-              className="hidden md:block h-12 md:h-16 object-contain"
-              onError={(e) => { e.currentTarget.style.display = 'none' }}
-            />
+            <img src="/logo.png" alt="Marwa Twin" className="h-10 md:h-16 object-contain" onError={(e) => { e.currentTarget.style.display = 'none' }} />
             <h1 className="calligraphic-title text-gold text-3xl md:text-4xl ml-3 hidden md:block">
               Marwa Twin
             </h1>
