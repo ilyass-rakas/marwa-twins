@@ -1,10 +1,10 @@
 import React, { useState, useCallback, useEffect } from 'react'
 
 const images = [
-  { id: 1, src: '/gallery/1.jpg', alt: 'Manucure élégante' },
-  { id: 2, src: '/gallery/2.jpg', alt: 'Brushing professionnel' },
-  { id: 3, src: '/gallery/3.jpg', alt: 'Nail art créatif' },
-  { id: 4, src: '/gallery/4.jpg', alt: 'Couleur et mèches' },
+  { id: 1, src: '/gallery/1.jpeg', alt: 'Manucure élégante' },
+  { id: 2, src: '/gallery/2.jpeg', alt: 'Brushing professionnel' },
+  { id: 3, src: '/gallery/3.jpeg', alt: 'Nail art créatif' },
+  { id: 4, src: '/gallery/4.jpeg', alt: 'Couleur et mèches' },
 ]
 
 export default function Gallery() {
