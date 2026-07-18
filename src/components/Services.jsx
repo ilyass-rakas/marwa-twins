@@ -72,9 +72,7 @@ export default function Services() {
                 </div>
               </div>
               <div className="mt-4 pt-4 border-t border-gold/20">
-                <button className="text-gold hover:text-gold-light font-semibold transition-colors flex items-center gap-2">
-                  En savoir plus <span>→</span>
-                </button>
+                <p className="text-gold font-semibold">Contactez-nous pour plus de détails</p>
               </div>
             </div>
           ))}
@@ -82,10 +80,7 @@ export default function Services() {
 
         {/* Bottom CTA */}
         <div className="text-center mt-16">
-          <p className="text-gray-300 mb-6">Prêt à vous sentir magnifique ?</p>
-          <button className="btn-primary text-lg">
-            Réservez une consultation gratuite
-          </button>
+          <p className="text-gray-300 mb-6">Prêt à vous sentir magnifique ? Contactez-nous dès maintenant.</p>
         </div>
       </div>
     </section>

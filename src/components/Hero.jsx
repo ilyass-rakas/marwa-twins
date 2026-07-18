@@ -29,9 +29,6 @@ export default function Hero() {
               >
                 Réserver mon moment
               </button>
-              <button className="btn-secondary whitespace-nowrap">
-                En savoir plus
-              </button>
             </div>
 
             {/* Highlights */}
