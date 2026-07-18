@@ -42,7 +42,7 @@ export default function Hero() {
               </div>
               <div className="text-center">
                 <p className="text-2xl font-bold text-gold">Depuis</p>
-                <p className="text-sm text-gray-300">2020</p>
+                <p className="text-sm text-gray-300">2025</p>
               </div>
               <div className="text-center">
                 <p className="text-2xl font-bold text-gold">Tiflet</p>
