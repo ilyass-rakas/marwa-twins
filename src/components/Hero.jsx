@@ -49,13 +49,20 @@ export default function Hero() {
           </div>
 
           {/* Right Visual */}
-          <div className="hidden md:flex justify-center">
-            <div className="w-full max-w-md aspect-square bg-gradient-to-br from-gold/20 to-rosegold-dark rounded-2xl border-2 border-gold/30 flex items-center justify-center">
-              <div className="text-center">
-                <svg className="w-32 h-32 mx-auto text-gold opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <p className="text-gold text-lg font-semibold mt-4">Votre Beauté, Notre Passion</p>
+          <div className="flex justify-center">
+            <div className="w-full max-w-md aspect-square relative rounded-[36px] overflow-hidden border border-gold/30 shadow-[0_30px_80px_rgba(212,175,55,0.18)]">
+              <img
+                src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=1200&auto=format&fit=crop"
+                alt="Beauté élégante"
+                className="absolute inset-0 h-full w-full object-cover object-center"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-rosegold-dark/20 via-rosegold-dark/10 to-transparent" />
+              <div className="relative z-10 flex h-full flex-col justify-end p-8 text-left">
+                <div className="max-w-[70%] bg-black/15 backdrop-blur-sm rounded-3xl p-6 shadow-[0_20px_50px_rgba(0,0,0,0.2)]">
+                  <span className="text-xs uppercase tracking-[0.45em] text-gold/90">Soin beauté premium</span>
+                  <h3 className="mt-4 text-4xl md:text-5xl font-semibold text-white drop-shadow-[0_8px_16px_rgba(0,0,0,0.35)]">Une expérience luxe sur-mesure</h3>
+                  <p className="mt-4 max-w-xs text-sm md:text-base leading-relaxed text-gray-200 opacity-95">Découvrez nos prestations haut de gamme pour sublimer chaque détail de votre beauté.</p>
+                </div>
               </div>
             </div>
           </div>
