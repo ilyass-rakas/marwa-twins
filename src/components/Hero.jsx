@@ -56,14 +56,6 @@ export default function Hero() {
                 alt="Beauté élégante"
                 className="absolute inset-0 h-full w-full object-cover object-center"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-rosegold-dark/20 via-rosegold-dark/10 to-transparent" />
-              <div className="relative z-10 flex h-full flex-col justify-end p-8 text-left">
-                <div className="max-w-[70%] bg-black/15 backdrop-blur-sm rounded-3xl p-6 shadow-[0_20px_50px_rgba(0,0,0,0.2)]">
-                  <span className="text-xs uppercase tracking-[0.45em] text-gold/90">Soin beauté premium</span>
-                  <h3 className="mt-4 text-4xl md:text-5xl font-semibold text-white drop-shadow-[0_8px_16px_rgba(0,0,0,0.35)]">Une expérience luxe sur-mesure</h3>
-                  <p className="mt-4 max-w-xs text-sm md:text-base leading-relaxed text-gray-200 opacity-95">Découvrez nos prestations haut de gamme pour sublimer chaque détail de votre beauté.</p>
-                </div>
-              </div>
             </div>
           </div>
         </div>

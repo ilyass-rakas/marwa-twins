@@ -1,10 +1,10 @@
 import React, { useState, useCallback, useEffect } from 'react'
 
 const images = [
-  { id: 1, src: 'https://images.unsplash.com/photo-1556228720-1b7e2f3f0a4b?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=1', alt: 'Manucure élégante' },
-  { id: 2, src: 'https://images.unsplash.com/photo-1519744792095-2f2205e87b6f?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=2', alt: 'Brushing professionnel' },
-  { id: 3, src: 'https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=3', alt: 'Nail art créatif' },
-  { id: 4, src: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=4', alt: 'Couleur et mèches' },
+  { id: 1, src: '/gallery/1.jpg', alt: 'Manucure élégante' },
+  { id: 2, src: '/gallery/2.jpg', alt: 'Brushing professionnel' },
+  { id: 3, src: '/gallery/3.jpg', alt: 'Nail art créatif' },
+  { id: 4, src: '/gallery/4.jpg', alt: 'Couleur et mèches' },
 ]
 
 export default function Gallery() {
