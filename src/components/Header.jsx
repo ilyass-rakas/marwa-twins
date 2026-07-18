@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import logo from '../assets/logo.svg'
 import { FaInstagram, FaPhone } from 'react-icons/fa'
 
 export default function Header() {
@@ -11,7 +12,7 @@ export default function Header() {
           {/* Logo/Name */}
           <div className="flex-shrink-0 flex items-center">
             <img
-              src="/logo.svg"
+              src={logo}
               alt="Marwa Twin"
               className="h-12 md:h-16 object-contain"
               onError={(e) => { e.currentTarget.style.display = 'none' }}

@@ -91,7 +91,7 @@ export default function Footer() {
           </div>
 
           <div className="mt-4 text-center">
-            <p className="text-gray-400 text-sm">Crée par <a href="https://ilyassrakas-portfolio.vercel.app/" target="_blank" rel="noreferrer" className="text-gold font-semibold hover:underline">Ilyass Rakas</a></p>
+            <p className="text-gray-400 text-sm">Crée par <a href="https://irsystems.vercel.app/" target="_blank" rel="noreferrer" className="text-gold font-semibold hover:underline">IRSystems</a></p>
           </div>
         </div>
       </div>
