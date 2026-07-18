@@ -121,6 +121,21 @@ Modifier le tableau `services` dans `Services.jsx`.
 ### Changer la localisation
 Éditer les informations de localisation dans `Footer.jsx`.
 
+## 📈 Analytics, RGPD et Déploiement
+
+- **Cookie Consent / RGPD:** Une bannière de consentement apparaît pour activer les outils analytiques. Le script Plausible est chargé uniquement après acceptation.
+- **Analytics:** Intégration légère Plausible (script chargé après consentement). Remplacez la source si vous utilisez Google Tag.
+- **Déploiement (GitHub → Vercel):**
+  1. Poussez le repository sur GitHub.
+  2. Créez un projet sur Vercel et connectez votre dépôt GitHub.
+  3. Vercel détecte automatiquement Vite et déploie le site.
+
+Exemple rapide pour pousser depuis la machine locale:
+```bash
+git remote add origin https://github.com/username/repo.git
+git push -u origin main
+```
+
 ## 📱 Responsive Design
 
 Le site est optimisé pour:
