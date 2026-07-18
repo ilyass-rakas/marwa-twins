@@ -11,9 +11,9 @@ export default function Footer() {
   }
 
   return (
-    <footer id="contact" className="bg-black/50 border-t border-gold/20 py-16 px-4 sm:px-6 lg:px-8">
+    <footer id="contact" className="bg-black/50 border-t border-gold/20 py-16 px-4 sm:px-6 lg:px-8 reveal">
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-3 gap-12 mb-12">
+        <div className="grid md:grid-cols-3 gap-12 mb-8">
           {/* Brand Section */}
           <div className="space-y-4">
             <h3 className="text-2xl font-calligraphic text-gold">Marwa Twin</h3>
@@ -57,40 +57,37 @@ export default function Footer() {
             </div>
           </div>
         </div>
+        {/* Map + Address */}
+        <div className="grid md:grid-cols-2 gap-6 items-start mb-8">
+          <div className="w-full h-64 bg-black/30 rounded-lg overflow-hidden border border-gold/20">
+            <iframe
+              title="Marwa Twin - Tiflet"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.1234567890123!2d-6.099999!3d33.900000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!2s0xd...!5e0!3m2!1sfr!2sma!4v0000000000000"
+              width="100%"
+              height="100%"
+              className="border-0"
+              allowFullScreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div className="space-y-3">
+            <h4 className="text-lg font-bold text-white">Adresse</h4>
+            <p className="text-gold font-semibold">Marwa Twin — Tiflet, Maroc</p>
+            <p className="text-gray-300">Rue principale, Centre-ville — À deux pas de la place centrale.</p>
+            <p className="text-gray-300">Horaires: Lun-Sam 10h - 20h</p>
+            <p className="text-gray-300">Contact: <span className="text-gold font-semibold">+212 6 12 34 56 78</span></p>
+          </div>
+        </div>
 
         {/* Divider */}
         <div className="border-t border-gold/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-gray-400 text-sm">
-              © 2024 Marwa Twin. Tous droits réservés.
-            </p>
+            <p className="text-gray-400 text-sm">© 2024 Marwa Twin. Tous droits réservés.</p>
             <div className="flex gap-4">
-              <a href="#" className="text-gray-400 hover:text-gold transition-colors text-sm">
-                Politique de confidentialité
-              </a>
-              <a href="#" className="text-gray-400 hover:text-gold transition-colors text-sm">
-                Conditions d'utilisation
-              </a>
+              <a href="#" className="text-gray-400 hover:text-gold transition-colors text-sm">Politique de confidentialité</a>
+              <a href="#" className="text-gray-400 hover:text-gold transition-colors text-sm">Conditions d'utilisation</a>
             </div>
           </div>
-        </div>
-
-        {/* Float Action Button */}
-        <div className="fixed bottom-6 right-6 flex flex-col gap-3">
-          <button
-            onClick={handleWhatsApp}
-            className="w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all transform hover:scale-110"
-            title="Contacter sur WhatsApp"
-          >
-            <span className="text-2xl">💬</span>
-          </button>
-          <button
-            onClick={handleInstagram}
-            className="w-14 h-14 bg-gradient-to-br from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all transform hover:scale-110"
-            title="Suivre sur Instagram"
-          >
-            <span className="text-2xl">📸</span>
-          </button>
         </div>
       </div>
     </footer>
