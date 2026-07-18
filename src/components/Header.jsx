@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { FaInstagram, FaPhone } from 'react-icons/fa'
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -15,7 +16,7 @@ export default function Header() {
           </div>
 
           {/* Desktop Menu */}
-          <nav className="hidden md:flex gap-8">
+          <nav className="hidden md:flex gap-8 items-center">
             <a href="#accueil" className="text-gray-100 hover:text-gold transition duration-300 font-medium">
               Accueil
             </a>
@@ -25,6 +26,10 @@ export default function Header() {
             <a href="#contact" className="text-gray-100 hover:text-gold transition duration-300 font-medium">
               Contact
             </a>
+            <div className="flex items-center gap-4 ml-4">
+              <a href="#contact" className="text-gold hover:text-gold-light text-lg"><FaPhone /></a>
+              <a href="https://instagram.com/marwa_anbar____" target="_blank" rel="noreferrer" className="text-gold hover:text-gold-light text-lg"><FaInstagram /></a>
+            </div>
           </nav>
 
           {/* Mobile Menu Button */}

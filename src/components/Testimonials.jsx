@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaStar } from 'react-icons/fa'
 
 const reviews = [
   { id: 1, name: 'Sara', text: 'Meilleur brushing de Tiflet ! Le résultat tient toute la semaine.', rating: 5 },
@@ -11,9 +12,7 @@ function Stars({ count = 5 }) {
   return (
     <div className="flex text-gold">
       {Array.from({ length: count }).map((_, i) => (
-        <svg key={i} className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 .587l3.668 7.431L23.327 9.6l-5.659 5.518L18.997 24 12 20.201 5.003 24l1.329-8.882L.673 9.6l7.659-1.582L12 .587z" />
-        </svg>
+        <FaStar key={i} className="w-4 h-4 text-gold" />
       ))}
     </div>
   )
