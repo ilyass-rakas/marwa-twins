@@ -3,7 +3,7 @@ import React from 'react'
 export default function Hero() {
   const handleWhatsApp = () => {
     const message = encodeURIComponent("Bonjour, je voudrais prendre rendez-vous chez Marwa Twin")
-    window.open(`https://wa.me/212612345678?text=${message}`, '_blank')
+    window.open(`https://wa.me/212643808254?text=${message}`, '_blank')
   }
 
   return (

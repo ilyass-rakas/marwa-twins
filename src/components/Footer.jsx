@@ -4,7 +4,7 @@ import { FaInstagram, FaMapMarkerAlt, FaPhone } from 'react-icons/fa'
 export default function Footer() {
   const handleWhatsApp = () => {
     const message = encodeURIComponent("Bonjour, je voudrais prendre rendez-vous chez Marwa Twin")
-    window.open(`https://wa.me/212612345678?text=${message}`, '_blank')
+    window.open(`https://wa.me/212643808254?text=${message}`, '_blank')
   }
 
   const handleInstagram = () => {
@@ -76,7 +76,7 @@ export default function Footer() {
             <p className="text-gold font-semibold">Marwa Twin — Tiflet, Maroc</p>
             <p className="text-gray-300">Rue principale, Centre-ville — À deux pas de la place centrale.</p>
             <p className="text-gray-300">Horaires: Lun-Sam 10h - 20h</p>
-            <p className="text-gray-300">Contact: <span className="text-gold font-semibold">+212 6 12 34 56 78</span></p>
+            <p className="text-gray-300">Contact: <a href="tel:+212643808254" className="text-gold font-semibold">+212 643-808254</a></p>
           </div>
         </div>
 
