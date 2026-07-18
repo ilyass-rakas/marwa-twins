@@ -7,9 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        emerald: {
-          dark: '#023020',
-          DEFAULT: '#10b981',
+        rosegold: {
+          dark: '#5b2022',
+          DEFAULT: '#9a3f43',
         },
         gold: {
           DEFAULT: '#D4AF37',

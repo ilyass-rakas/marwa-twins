@@ -28,7 +28,7 @@ export default function CookieConsent() {
 
   return (
     <div className="fixed bottom-4 left-4 right-4 md:left-auto md:right-6 z-50">
-      <div className="bg-emerald-dark/90 border border-gold/20 text-gray-100 p-4 rounded-lg shadow-lg flex flex-col md:flex-row items-center gap-3">
+      <div className="bg-rosegold-dark/90 border border-gold/20 text-gray-100 p-4 rounded-lg shadow-lg flex flex-col md:flex-row items-center gap-3">
         <div className="flex-1 text-sm">
           Nous utilisons des cookies pour améliorer votre expérience et analyser le trafic. En acceptant, vous autorisez l'utilisation d'outils analytiques.
         </div>

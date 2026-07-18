@@ -10,7 +10,7 @@ export default function WhatsAppButton({ number = '212643808254', message = 'Bon
   return (
     <button
       onClick={handleClick}
-      className="fixed bottom-6 right-6 w-16 h-16 bg-emerald-dark border-2 border-gold rounded-full flex items-center justify-center shadow-xl whatsapp-pulse hover:scale-105 transition-transform z-50 text-gold"
+      className="fixed bottom-6 right-6 w-16 h-16 bg-rosegold-dark border-2 border-gold rounded-full flex items-center justify-center shadow-xl whatsapp-pulse hover:scale-105 transition-transform z-50 text-gold"
       title="Prendre rendez-vous sur WhatsApp"
     >
       <FaWhatsapp className="text-2xl" />

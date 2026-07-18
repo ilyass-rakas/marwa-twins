@@ -9,8 +9,14 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo/Name */}
-          <div className="flex-shrink-0">
-            <h1 className="calligraphic-title text-gold text-3xl md:text-4xl">
+          <div className="flex-shrink-0 flex items-center">
+            <img
+              src="/logo.svg"
+              alt="Marwa Twin"
+              className="h-12 md:h-16 object-contain"
+              onError={(e) => { e.currentTarget.style.display = 'none' }}
+            />
+            <h1 className="calligraphic-title text-gold text-3xl md:text-4xl ml-3">
               Marwa Twin
             </h1>
           </div>

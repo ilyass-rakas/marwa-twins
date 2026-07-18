@@ -15,7 +15,7 @@ export default function FAQ() {
         <h2 className="text-3xl font-semibold text-white mb-6">Foire aux <span className="text-gold">Questions</span></h2>
         <div className="space-y-3">
           {faqs.map((f) => (
-            <div key={f.id} className="bg-emerald-dark/50 border border-gold/20 rounded-md overflow-hidden">
+            <div key={f.id} className="bg-rosegold-dark/50 border border-gold/20 rounded-md overflow-hidden">
               <button
                 onClick={() => setOpen(open === f.id ? null : f.id)}
                 className="w-full text-left px-4 py-3 flex justify-between items-center"

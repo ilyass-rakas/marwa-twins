@@ -53,7 +53,7 @@ export default function Hero() {
 
           {/* Right Visual */}
           <div className="hidden md:flex justify-center">
-            <div className="w-full max-w-md aspect-square bg-gradient-to-br from-gold/20 to-emerald-dark rounded-2xl border-2 border-gold/30 flex items-center justify-center">
+            <div className="w-full max-w-md aspect-square bg-gradient-to-br from-gold/20 to-rosegold-dark rounded-2xl border-2 border-gold/30 flex items-center justify-center">
               <div className="text-center">
                 <svg className="w-32 h-32 mx-auto text-gold opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
