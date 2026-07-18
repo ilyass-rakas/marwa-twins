@@ -7,6 +7,7 @@ import Testimonials from './components/Testimonials'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
+import Gallery from './components/Gallery'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Hero />
       <Services />
+      <Gallery />
       <Prices />
       <Testimonials />
       <FAQ />
