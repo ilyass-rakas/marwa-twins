@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-emerald-dark text-gray-100 font-elegant;
+}
+
+.gold-text {
+  @apply text-gold;
+}
+
+.calligraphic-title {
+  @apply font-calligraphic text-5xl md:text-7xl font-bold tracking-wider;
+}
+
+.gradient-gold {
+  background: linear-gradient(135deg, #D4AF37 0%, #E5C158 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.btn-primary {
+  @apply px-8 py-3 bg-gold hover:bg-gold-light text-emerald-dark font-semibold rounded-full transition-all duration-300 transform hover:scale-105;
+}
+
+.btn-secondary {
+  @apply px-6 py-2 border-2 border-gold text-gold hover:bg-gold hover:text-emerald-dark transition-all duration-300 rounded-full;
+}
+
+.service-card {
+  @apply bg-emerald-dark/50 border border-gold/30 rounded-lg p-6 hover:border-gold/70 transition-all duration-300 hover:shadow-lg hover:shadow-gold/20;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #023020 0%, #0d4c2e 100%);
+}
+
+.header-sticky {
+  background: rgba(2, 48, 32, 0.95);
+  backdrop-filter: blur(10px);
+}
