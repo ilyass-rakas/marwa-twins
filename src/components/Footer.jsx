@@ -89,6 +89,10 @@ export default function Footer() {
               <a href="#" className="text-gray-400 hover:text-gold transition-colors text-sm">Conditions d'utilisation</a>
             </div>
           </div>
+
+          <div className="mt-4 text-center">
+            <p className="text-gray-400 text-sm">Crée par <a href="https://ilyassrakas-portfolio.vercel.app/" target="_blank" rel="noreferrer" className="text-gold font-semibold hover:underline">Ilyass Rakas</a></p>
+          </div>
         </div>
       </div>
     </footer>
