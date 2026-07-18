@@ -8,6 +8,7 @@ import FAQ from './components/FAQ'
 import Footer from './components/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
 import Gallery from './components/Gallery'
+import CookieConsent from './components/CookieConsent'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <FAQ />
       <Footer />
       <WhatsAppButton />
+      <CookieConsent />
     </div>
   )
 }
